@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,span{
+    padding: 0;
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link{
+
+    color: #ffffff;
+    padding: 13px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+font-family: 'PT Sans', sans-serif;
+  
+}
+.navbar-nav .nav-item .nav-link.active{
+    color:white;
+   
+}
+.menu{
+    background-color: #02918c;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #cfc91d;
+}
+#banner{
+    background: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size:cover;
+    
+}
+.overlay{
+    background: rgba(0,0,0,.1);
+    padding: 207px 0px;
+}
+.banner_content{
+    text-align: center;
+    color: white;
+}
+.banner_content h1{
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 24px;
+ margin: 5px 0px;
+}
+.banner_content h3{
+    font-size: 30px;
+        margin-top: 10px;
+}
+.banner_content p{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.banner_content a{
+    color: #0b1016;
+    padding: 15px 45px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.banner_content img{
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+.about_content{
+    text-align: center;
+}
+.about_content img{
+    margin:25px 0px;
+}
+.about_content p{
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 400;
+     color: #7e8287;
+     width: 80%;
+    margin: auto;
+}
+.about_content span{
+    font-size: 23px;
+    font-weight: 700;
+       font-family: 'Open Sans', sans-serif;
+     color: #7e8287;
+}
+.about_content h2{
+    font-size: 46px;
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #02918c;
+}
+.content_secondpart{
+    text-align: center;
+
+}
+.content_secondpart h5{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 25px 0px;
+}
+.content_secondpart p{
+    font-size: 12px;
+        color: #7e8287;
+   
+}
+.color{
+    border-right: 1px solid #d9dbdb;
+    padding: 25px 15px;
+    margin-top: 70px;
+}
+.hide{
+    border-right: none;
+       
+}
+#xyz{
+    padding: 90px 0px;
+}
+
+.service_content{
+    text-align: left;
+}
+.service_content img{
+    margin:25px 0px;
+}
+.service_content p{
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 400;
+     color: #7e8287;
+}
+
+.service_content h2{
+    font-size: 46px;
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+}
+.service_below{
+    text-align: left;
+    margin-top: 50px;
+
+}
+.service_below h5{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 25px 0px;
+}
+.service_below p{
+    font-size: 12px;
+        color: #7e8287;
+   
+}
+#service{
+    background-color: #f0f0e8;
+
+}
+.backgroun{
+    background: url(../image/hand_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.overlays{
+    padding: 340px 0px;
+}
+.margi{
+
+        padding: 58px 0px;
+        padding-left: 100px;
+}
+.work_content{
+    text-align: center;
+}
+.work_content img{
+    margin:25px 0px;
+}
+.work_content p{
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 400;
+     color: #7e8287;
+     width: 60%;
+    margin: auto;
+}
+
+.work_content h2{
+    font-size: 46px;
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #02918c;
+}
+#strill{
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+.gallery_content{
+   position: relative;
+ 
+   
+}
+.overlay_col{
+ height:80%;
+ width:80%;
+ background-color: rgba(32, 149, 143, .9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+    opacity: 0;
+ transition: all linear .3s;
+}
+.hey h5{
+  font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+}
+.hey p{
+    width: 95%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 400;
+     color: #ffffff;
+    margin-top: 12px;  
+ 
+}
+.gallery_content:hover .overlay_col{
+    opacity: 1;
+    transition: all linear .3s;
+}
+input{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: 1px solid #898989;
+    background: transparent;
+}
+textarea {
+  resize: none;
+background: transparent;
+      height: 32px;
+    border: none;
+      border-bottom: 1px solid #898989;
+     width: 850px;
+margin-left: -125px;
+    margin-bottom: 50px;
+}
+.form{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+.form_content{
+  
+    width: 600px;
+  
+}
+.form_content input,textarea::placeholder{
+text-align: center;
+    color: #7e8287;
+  font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.second_footer{
+    background-color: #0b0b0b;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.form_main{
+    text-align: center;
+    
+}
+.form_content button{
+        padding: 13px 65px;
+    background-color: #cfc91d;
+    border: 1px solid #cfc91d;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    
+}
+[type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    outline: 0;
+}
+.footer_conte{
+    text-align: center;
+    padding: 25px 0px;
+    color: #7e8287;
+      font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+footer{
+    background-color: #000000;
+}
