@@ -42,10 +42,12 @@ font-family: 'PT Sans', sans-serif;
     background-position:center top;
     background-size:cover;
     
+    
 }
 .overlay{
     background: rgba(0,0,0,.1);
     padding: 207px 0px;
+  
 }
 .banner_content{
     text-align: center;
@@ -190,7 +192,6 @@ font-family: 'PT Sans', sans-serif;
     padding: 340px 0px;
 }
 .margi{
-
         padding: 58px 0px;
         padding-left: 100px;
 }
@@ -260,22 +261,21 @@ font-family: 'PT Sans', sans-serif;
     opacity: 1;
     transition: all linear .3s;
 }
-input{
-    width: 600px;
+.form_content input{
+    width: 60%;
     height: 40px;
     margin-bottom: 50px;
     border: none;
     border-bottom: 1px solid #898989;
     background: transparent;
 }
-textarea {
+.form_content textarea {
   resize: none;
 background: transparent;
       height: 32px;
     border: none;
       border-bottom: 1px solid #898989;
-     width: 850px;
-margin-left: -125px;
+    width: 100%;
     margin-bottom: 50px;
 }
 .form{
@@ -283,12 +283,12 @@ margin-left: -125px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 900px;
     margin: auto;
 }
 .form_content{
   
-    width: 600px;
+    width: 700px;
+    margin: auto;
   
 }
 .form_content input,textarea::placeholder{
@@ -318,6 +318,10 @@ text-align: center;
     margin-top: 20px;
     
 }
+.form_content input[type=text],textarea{
+    color: whitesmoke;
+}
+
 [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
     outline: 0;
@@ -325,10 +329,10 @@ text-align: center;
 .footer_conte{
     text-align: center;
     padding: 25px 0px;
-    color: #7e8287;
+    color: #000000;
       font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
 footer{
-    background-color: #000000;
+    background-color: white;
 }
